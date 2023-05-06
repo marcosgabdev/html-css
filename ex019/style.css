@@ -1,0 +1,26 @@
+@charset "UTF-8";
+/*EM HTML É ID = EM CSS É #
+EM HTML É CLASS = EM CSS É .*/
+body{
+    background-color: antiquewhite;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1{color: aquamarine;}
+#principal{
+    text-align: center;
+    background-color: blue;
+}
+h2{
+    color: brown;
+}
+.basico{
+    text-align: center;
+    font-weight: bolder;
+} 
+.popo{
+    color: blueviolet;
+}
+.destaque{
+    color: yellow
+    ;
+}

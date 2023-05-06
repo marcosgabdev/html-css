@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script&display=swap');
+
+body{
+    background-color:#c5ebd6
+    var(--fonte-padrao)
+}
+:root{ 
+    --cor0: #c5ebd6;
+    --cor1: #83e1ad;
+    --cor2: #3ddc84;
+    --cor3: #2fa866;
+    --cor4: #1a5c37;
+    --cor5: #063d1e;
+
+    --fonte-padrao: arial, verdana , helvetica , sans-serif;
+    --fonte-destaque: 'Bebas Neue', cursive;
+
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-color:var(--cor4) ;
+    text-align: center;
+}
+header > h1{ color:white;
+    font-family: var(--fonte-destaque);
+}
+header > p {
+    color: white;
+}
+nav{
+    background-color: #063d1e;
+}
+main{ background-color: white;
+    min-width:300px ;
+    max-width: 1000px;
+    margin: auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.474);
+  
+
+}
+main > h1{
+color: black;
+}
+main > h2 {
+color: black;
+}
+main img{
+    width: 100%;
+}
+footer{
+    background-color: var(--cor5);
+    color: white;
+
+}
